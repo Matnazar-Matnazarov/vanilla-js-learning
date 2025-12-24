@@ -1,35 +1,33 @@
 name: CI
 
+# Faqat GitHub Actions'da ishlaydi, boshqa serverlarda ishlamaydi
 on:
   push:
     branches: [ main, develop ]
   pull_request:
     branches: [ main, develop ]
+  workflow_dispatch: # Manual trigger
 
+# Workflow faqat GitHub Actions'da ishlaydi
 jobs:
   lint-and-validate:
     name: Lint and Validate
     runs-on: ubuntu-latest
+    timeout-minutes: 5 # Timeout qo'shildi - xotirani tejash uchun
     
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
       
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '20'
-          cache: 'npm'
-      
       - name: Validate HTML files
         run: |
           echo "Validating HTML files..."
-          find . -name "*.html" -type f | head -5
+          find . -name "*.html" -type f -not -path "./node_modules/*" | head -5
       
       - name: Validate JavaScript syntax
         run: |
           echo "Validating JavaScript files..."
-          find . -name "*.js" -type f -exec node -c {} \; || true
+          find . -name "*.js" -type f -not -path "./node_modules/*" -exec node --check {} \; 2>&1 | head -20 || true
       
       - name: Check file structure
         run: |
@@ -42,6 +40,7 @@ jobs:
   check-links:
     name: Check Links
     runs-on: ubuntu-latest
+    timeout-minutes: 3 # Timeout qo'shildi
     
     steps:
       - name: Checkout code
@@ -50,5 +49,5 @@ jobs:
       - name: Check for broken links
         run: |
           echo "Checking for broken links in markdown files..."
-          grep -r "http" README.md .github/ || true
+          grep -r "http" README.md .github/ 2>/dev/null | head -10 || true
 
