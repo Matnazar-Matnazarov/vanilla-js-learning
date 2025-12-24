@@ -159,12 +159,10 @@ Bu loyiha [LICENSE](LICENSE) faylida ko'rsatilgan litsenziya bo'yicha tarqatilad
 
 ## 🤖 GitHub Actions
 
-Bu loyiha GitHub Actions workflow'laridan foydalanadi:
-- **CI/CD** - Kod tekshiruvi va validatsiya
-- **CodeQL** - Xavfsizlik tahlili
-- **Dependabot** - Dependencies yangilanishi
+Bu loyiha minimal GitHub Actions CI workflow'dan foydalanadi:
+- **CI** - Kod tekshiruvi va validatsiya
 
-Workflow'lar faqat GitHub Actions'da ishlaydi va boshqa serverlarda ishlamaydi.
+Workflow faqat GitHub Actions'da ishlaydi va minimal resurslardan foydalanadi.
 
 ---
 

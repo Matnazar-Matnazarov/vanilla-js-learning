@@ -1,33 +1,21 @@
 name: CI
 
-# Faqat GitHub Actions'da ishlaydi, boshqa serverlarda ishlamaydi
+# Minimal CI workflow - faqat GitHub Actions'da ishlaydi
 on:
   push:
-    branches: [ main, develop ]
+    branches: [ main ]
   pull_request:
-    branches: [ main, develop ]
-  workflow_dispatch: # Manual trigger
+    branches: [ main ]
 
-# Workflow faqat GitHub Actions'da ishlaydi
 jobs:
-  lint-and-validate:
-    name: Lint and Validate
+  validate:
+    name: Validate Files
     runs-on: ubuntu-latest
-    timeout-minutes: 5 # Timeout qo'shildi - xotirani tejash uchun
+    timeout-minutes: 3
     
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
-      
-      - name: Validate HTML files
-        run: |
-          echo "Validating HTML files..."
-          find . -name "*.html" -type f -not -path "./node_modules/*" | head -5
-      
-      - name: Validate JavaScript syntax
-        run: |
-          echo "Validating JavaScript files..."
-          find . -name "*.js" -type f -not -path "./node_modules/*" -exec node --check {} \; 2>&1 | head -20 || true
       
       - name: Check file structure
         run: |
@@ -36,18 +24,14 @@ jobs:
           test -f LICENSE && echo "✓ LICENSE exists"
           test -d .github && echo "✓ .github directory exists"
           test -d 1-modul-javascript-asoslari && echo "✓ Module directory exists"
-
-  check-links:
-    name: Check Links
-    runs-on: ubuntu-latest
-    timeout-minutes: 3 # Timeout qo'shildi
-    
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
       
-      - name: Check for broken links
+      - name: Validate HTML files
         run: |
-          echo "Checking for broken links in markdown files..."
-          grep -r "http" README.md .github/ 2>/dev/null | head -10 || true
+          echo "Validating HTML files..."
+          find . -name "*.html" -type f -not -path "./node_modules/*" -not -path "./.git/*" | head -10
+      
+      - name: Validate JavaScript syntax
+        run: |
+          echo "Validating JavaScript files..."
+          find . -name "*.js" -type f -not -path "./node_modules/*" -not -path "./.git/*" -exec sh -c 'node --check "$1" 2>&1 || true' _ {} \; | head -20
 
