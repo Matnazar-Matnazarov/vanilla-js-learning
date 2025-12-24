@@ -1,0 +1,9 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 📚 Course Documentation
+    url: https://github.com/YOUR_USERNAME/vanilla-js-learning#readme
+    about: Check the README for course information
+  - name: 💬 Discussions
+    url: https://github.com/YOUR_USERNAME/vanilla-js-learning/discussions
+    about: Ask questions and discuss with the community
+
