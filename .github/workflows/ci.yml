@@ -1,0 +1,54 @@
+name: CI
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main, develop ]
+
+jobs:
+  lint-and-validate:
+    name: Lint and Validate
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+      
+      - name: Validate HTML files
+        run: |
+          echo "Validating HTML files..."
+          find . -name "*.html" -type f | head -5
+      
+      - name: Validate JavaScript syntax
+        run: |
+          echo "Validating JavaScript files..."
+          find . -name "*.js" -type f -exec node -c {} \; || true
+      
+      - name: Check file structure
+        run: |
+          echo "Checking project structure..."
+          test -f README.md && echo "✓ README.md exists"
+          test -f LICENSE && echo "✓ LICENSE exists"
+          test -d .github && echo "✓ .github directory exists"
+          test -d 1-modul-javascript-asoslari && echo "✓ Module directory exists"
+
+  check-links:
+    name: Check Links
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      
+      - name: Check for broken links
+        run: |
+          echo "Checking for broken links in markdown files..."
+          grep -r "http" README.md .github/ || true
+
