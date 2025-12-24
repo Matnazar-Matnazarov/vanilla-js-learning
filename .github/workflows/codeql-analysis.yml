@@ -1,17 +1,21 @@
 name: "CodeQL Analysis"
 
+# Faqat GitHub Actions'da ishlaydi, boshqa serverlarda ishlamaydi
 on:
   push:
     branches: [ main ]
   pull_request:
     branches: [ main ]
   schedule:
-    - cron: '0 0 * * 0' # Weekly on Sunday
+    - cron: '0 0 * * 0' # Weekly on Sunday (faqat GitHub Actions'da)
+  workflow_dispatch: # Manual trigger
 
+# Workflow faqat GitHub Actions'da ishlaydi
 jobs:
   analyze:
     name: Analyze
     runs-on: ubuntu-latest
+    timeout-minutes: 10 # Timeout qo'shildi - xotirani tejash uchun
     permissions:
       actions: read
       contents: read
