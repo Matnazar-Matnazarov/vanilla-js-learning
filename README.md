@@ -141,6 +141,12 @@ vanilla-js-learning/
 2. Dars materiallarini o'qing va kodlarni yozing
 3. Amaliyot darslarida berilgan vazifalarni bajaring
 
+## 💬 Discussions
+
+Savollar, takliflar va muhokamalar uchun [Discussions](https://github.com/Matnazar-Matnazarov/vanilla-js-learning/discussions) bo'limiga o'ting.
+
+**Galaxy Brain Achievement** olish uchun [qo'llanma](GALAXY_BRAIN_GUIDE.md)ni o'qing.
+
 ## 📝 Eslatmalar
 
 - Har bir darsda kod misollari va izohlar mavjud
@@ -159,7 +165,7 @@ Bu loyiha [LICENSE](LICENSE) faylida ko'rsatilgan litsenziya bo'yicha tarqatilad
 
 ---
 
-**Yaratilgan:** 2024  
+**Yaratilgan:** 2025
 **Muallif:** JavaScript Learning Course  
 **Versiya:** 1.0.0
 
