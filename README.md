@@ -157,13 +157,6 @@ vanilla-js-learning/
 
 Bu loyiha [LICENSE](LICENSE) faylida ko'rsatilgan litsenziya bo'yicha tarqatiladi.
 
-## 🤖 GitHub Actions
-
-Bu loyiha minimal GitHub Actions CI workflow'dan foydalanadi:
-- **CI** - Kod tekshiruvi va validatsiya
-
-Workflow faqat GitHub Actions'da ishlaydi va minimal resurslardan foydalanadi.
-
 ---
 
 **Yaratilgan:** 2024  
