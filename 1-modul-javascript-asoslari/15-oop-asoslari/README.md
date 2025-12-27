@@ -4,21 +4,34 @@
 
 ## 📋 Dars mazmuni
 
-- Object-oriented programming
-- Class va constructor
-- Inheritance
-- Encapsulation
+Bu darsda Object-Oriented Programming (OOP) asoslarini o'rganamiz:
+- **Classes** - ES6 Class sintaksisi
+- **Constructor** - Object yaratish
+- **Inheritance** - Meros olish
+- **Encapsulation** - Ma'lumotlarni yashirish
 
 ## 🎯 O'rganiladigan mavzular
 
-- Classes
-- Constructors
-- Inheritance
-- Methods va properties
+### Classes
+- Class yaratish va ishlatish
+- Constructor metod
+- Instance metodlar
+- Static metodlar
+- Getter va Setter
+- Private fields
+
+## 📁 Fayl strukturası
+
+```
+15-oop-asoslari/
+├── classes.js              # Classes (✅ yaratildi)
+├── README.md               # Bu fayl
+└── ...
+```
 
 ## 📝 Vazifalar
 
-- [ ] Class yaratish
+- [x] Class yaratish
 - [ ] Constructor bilan ishlash
 - [ ] Inheritance
 - [ ] Methods va properties
