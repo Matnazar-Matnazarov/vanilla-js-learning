@@ -1,6 +1,17 @@
-// Dars 15: OOP asoslari
+/**
+ * DARS 15: OOP ASOSLARI - ASOSIY SCRIPT
+ * 
+ * Bu script barcha OOP tushunchalarini birlashtiradi
+ */
 
-console.log("=== CLASSES ===");
+console.log("============================================");
+console.log("DARS 15: OOP ASOSLARI");
+console.log("============================================\n");
+
+// ============================================
+// CLASSES
+// ============================================
+console.log("=== 1. CLASSES ===");
 
 class Person {
     constructor(name, age) {
@@ -13,28 +24,51 @@ class Person {
     }
 }
 
-let person = new Person("Matnazar", 25);
-console.log(person.greet());
+const person = new Person("Matnazar", 25);
+console.log("Person:", person.greet());
 
-console.log("\n=== INHERITANCE ===");
+// ============================================
+// INHERITANCE
+// ============================================
+console.log("\n=== 2. INHERITANCE ===");
 
 class Student extends Person {
     constructor(name, age, course) {
         super(name, age);
         this.course = course;
     }
+    
+    study() {
+        return `${this.name} ${this.course} o'rganmoqda`;
+    }
 }
 
-let student = new Student("Ali", 20, "JavaScript");
-console.log(student.greet());
+const student = new Student("Ali", 20, "JavaScript");
+console.log("Student greet:", student.greet());
+console.log("Student study:", student.study());
 
-console.log("\n=== ENCAPSULATION ===");
+// ============================================
+// ENCAPSULATION
+// ============================================
+console.log("\n=== 3. ENCAPSULATION ===");
 
 class BankAccount {
     #balance = 0;
     
+    constructor(initialBalance = 0) {
+        this.#balance = initialBalance;
+    }
+    
     deposit(amount) {
-        this.#balance += amount;
+        if (amount > 0) {
+            this.#balance += amount;
+        }
+    }
+    
+    withdraw(amount) {
+        if (amount > 0 && amount <= this.#balance) {
+            this.#balance -= amount;
+        }
     }
     
     getBalance() {
@@ -42,7 +76,11 @@ class BankAccount {
     }
 }
 
-let account = new BankAccount();
-account.deposit(1000);
+const account = new BankAccount(1000);
+account.deposit(500);
+account.withdraw(200);
 console.log("Balance:", account.getBalance());
 
+console.log("\n============================================");
+console.log("Batafsil ma'lumot uchun alohida fayllarni oching!");
+console.log("============================================");
