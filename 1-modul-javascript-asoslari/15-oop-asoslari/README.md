@@ -27,6 +27,7 @@ Bu darsda Object-Oriented Programming (OOP) asoslarini o'rganamiz:
 ├── classes.js              # Classes (✅ yaratildi)
 ├── constructors.js         # Constructor (✅ yaratildi)
 ├── inheritance.js          # Inheritance (✅ yaratildi)
+├── encapsulation.js        # Encapsulation (✅ yaratildi)
 ├── README.md               # Bu fayl
 └── ...
 ```
@@ -36,5 +37,5 @@ Bu darsda Object-Oriented Programming (OOP) asoslarini o'rganamiz:
 - [x] Class yaratish
 - [x] Constructor bilan ishlash
 - [x] Inheritance
-- [ ] Methods va properties
+- [x] Methods va properties
 
