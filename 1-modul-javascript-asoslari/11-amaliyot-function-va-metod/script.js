@@ -1,6 +1,4 @@
-// ============================================
 // DARS 11: AMALIYOT. FUNCTION VA METOD
-// ============================================
 
 /**
  * Bu darsda function va metodlarni birgalikda ishlatishni o'rganamiz
@@ -8,9 +6,7 @@
  * Uyga vazifalarni bajaramiz
  */
 
-// ============================================
 // SERIAL DATABASE OBJECT
-// ============================================
 const seriesDB = {
     count: 0,
     series: {},
@@ -19,9 +15,7 @@ const seriesDB = {
     private: false,
 };
 
-// ============================================
 // VAZIFA 1: ESKI KODLARNI FUNCTION'LARGA O'TKAZISH
-// ============================================
 
 /**
  * Serial sonini so'rash va database'ga saqlash
@@ -76,9 +70,7 @@ function startSeriesCollection() {
     console.log(seriesDB);
 }
 
-// ============================================
 // VAZIFA 2: showDb FUNKSIYASI
-// ============================================
 
 /**
  * Database ma'lumotlarini ko'rsatish
@@ -87,23 +79,18 @@ function startSeriesCollection() {
  */
 function showDb() {
     if (seriesDB.private === false) {
-        console.log("============================================");
         console.log("SERIAL DATABASE MA'LUMOTLARI");
-        console.log("============================================");
         console.log("Serial soni:", seriesDB.count);
         console.log("Seriallar:", seriesDB.series);
         console.log("Aktyorlar:", seriesDB.actors);
         console.log("Janrlar:", seriesDB.genres);
         console.log("Private:", seriesDB.private);
-        console.log("============================================");
     } else {
         console.log("Ma'lumotlar yashirin (private = true)");
     }
 }
 
-// ============================================
 // VAZIFA 3: writeGenres FUNKSIYASI
-// ============================================
 
 /**
  * Foydalanuvchidan 3 marta janr so'rash va genres massiviga joylash
@@ -127,9 +114,7 @@ function writeGenres() {
     console.log("Barcha janrlar:", seriesDB.genres);
 }
 
-// ============================================
 // QO'SHIMCHA UTILITY FUNKSIYALAR
-// ============================================
 
 /**
  * Serial qo'shish
@@ -195,13 +180,9 @@ function clearDatabase() {
     console.log("Database tozalandi!");
 }
 
-// ============================================
 // ASOSIY ISHGA TUSHRISH
-// ============================================
 
-console.log("============================================");
-console.log("DARS 11: AMALIYOT. FUNCTION VA METOD");
-console.log("============================================\n");
+console.log("DARS 11: AMALIYOT. FUNCTION VA METOD\n");
 
 // Vazifa 1: Eski kodlarni function'larga o'tkazish
 console.log("VAZIFA 1: Serial ma'lumotlarini yig'ish");
@@ -238,7 +219,5 @@ showDb(); // Endi ko'rsatilmaydi
 setPrivate(false);
 showDb(); // Endi ko'rsatiladi
 
-console.log("\n============================================");
-console.log("Barcha funksiyalar tayyor!");
-console.log("============================================");
+console.log("\nBarcha funksiyalar tayyor!");
 
