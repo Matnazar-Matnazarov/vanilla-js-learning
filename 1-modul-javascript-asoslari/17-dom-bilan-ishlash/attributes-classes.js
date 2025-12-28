@@ -9,13 +9,9 @@
  * - hasAttribute - atribut mavjudligini tekshirish
  */
 
-console.log("============================================");
-console.log("ATTRIBUTLAR VA CLASSLAR");
-console.log("============================================\n");
+console.log("ATTRIBUTLAR VA CLASSLAR\n");
 
-// ============================================
 // 1. classList - Classlar bilan ishlash
-// ============================================
 console.log("=== 1. classList ===");
 console.log("Element classlarini boshqarish\n");
 
@@ -72,9 +68,7 @@ if (demoButton) {
 
 console.log("");
 
-// ============================================
 // 2. setAttribute / getAttribute
-// ============================================
 console.log("=== 2. setAttribute / getAttribute ===");
 console.log("Atributlarni o'zgartirish va o'qish\n");
 
@@ -103,9 +97,7 @@ if (demoButton) {
 
 console.log("");
 
-// ============================================
 // 3. removeAttribute
-// ============================================
 console.log("=== 3. removeAttribute ===");
 console.log("Atributni o'chirish\n");
 
@@ -118,9 +110,7 @@ if (demoButton) {
 
 console.log("");
 
-// ============================================
 // 4. hasAttribute
-// ============================================
 console.log("=== 4. hasAttribute ===");
 console.log("Atribut mavjudligini tekshirish\n");
 
@@ -134,9 +124,7 @@ if (demoButton) {
 
 console.log("");
 
-// ============================================
 // 5. attributes - Barcha atributlarni o'qish
-// ============================================
 console.log("=== 5. attributes ===");
 console.log("Barcha atributlarni o'qish\n");
 
@@ -154,9 +142,7 @@ if (demoButton) {
 
 console.log("");
 
-// ============================================
 // 6. AMALIY MISOL - Dinamik stil o'zgartirish
-// ============================================
 console.log("=== 6. Amaliy misol - Dinamik stil ===");
 console.log("");
 
@@ -201,9 +187,7 @@ if (demoContainer) {
 
 console.log("");
 
-// ============================================
 // 7. className vs classList
-// ============================================
 console.log("=== 7. className vs classList ===");
 console.log("");
 
@@ -233,9 +217,7 @@ console.log("  - Qulay va moslashuvchan");
 console.log("  - Zamonaviy va tavsiya etiladi");
 console.log("");
 
-// ============================================
 // 8. DATA ATTRIBUTLAR
-// ============================================
 console.log("=== 8. Data atributlar ===");
 console.log("");
 
@@ -267,9 +249,7 @@ console.log("Yangi newAttribute:", dataElement.dataset.newAttribute);
 
 console.log("");
 
-// ============================================
 // 9. TAVSIYALAR
-// ============================================
 console.log("=== 9. Tavsiyalar ===");
 console.log("");
 
@@ -289,6 +269,4 @@ console.log("   ✅ Foydalanuvchi kiritgan ma'lumotlarni sanitize qilish");
 console.log("   ✅ innerHTML o'rniga textContent ishlatish");
 console.log("");
 
-console.log("\n============================================");
-console.log("Atributlar va classlar mavzusi tugadi!");
-console.log("============================================");
+console.log("\nAtributlar va classlar mavzusi tugadi!");
