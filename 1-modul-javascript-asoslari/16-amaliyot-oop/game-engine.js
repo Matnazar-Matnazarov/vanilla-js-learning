@@ -4,9 +4,9 @@
  * Bu loyiha Polymorphism prinsiplaridan foydalanib o'yin tizimini yaratadi
  */
 
-// ============================================
+
 // 1. Base Class - GameObject
-// ============================================
+
 
 class GameObject {
     constructor(x, y, width, height) {
@@ -50,9 +50,9 @@ class GameObject {
     }
 }
 
-// ============================================
+
 // 2. Player Class - Polymorphism
-// ============================================
+
 
 class Player extends GameObject {
     constructor(x, y, width, height) {
@@ -104,9 +104,9 @@ class Player extends GameObject {
     }
 }
 
-// ============================================
+
 // 3. Enemy Class - Polymorphism
-// ============================================
+
 
 class Enemy extends GameObject {
     constructor(x, y, width, height, speed = 2) {
@@ -153,9 +153,9 @@ class Enemy extends GameObject {
     }
 }
 
-// ============================================
+
 // 4. Collectible Class - Polymorphism
-// ============================================
+
 
 class Collectible extends GameObject {
     constructor(x, y, width, height, type = "coin") {
@@ -213,9 +213,9 @@ class Collectible extends GameObject {
     }
 }
 
-// ============================================
+
 // 5. Game Engine Class
-// ============================================
+
 
 class GameEngine {
     constructor() {
@@ -320,9 +320,9 @@ class GameEngine {
     }
 }
 
-// ============================================
+
 // 6. Export
-// ============================================
+
 
 if (typeof module !== 'undefined' && module.exports) {
     module.exports = {
