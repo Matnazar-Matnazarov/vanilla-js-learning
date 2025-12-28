@@ -4,13 +4,9 @@
  * Bu script barcha OOP tushunchalarini birlashtiradi
  */
 
-console.log("============================================");
-console.log("DARS 15: OOP ASOSLARI");
-console.log("============================================\n");
+console.log("DARS 15: OOP ASOSLARI\n");
 
-// ============================================
 // CLASSES
-// ============================================
 console.log("=== 1. CLASSES ===");
 
 class Person {
@@ -27,9 +23,7 @@ class Person {
 const person = new Person("Matnazar", 25);
 console.log("Person:", person.greet());
 
-// ============================================
 // INHERITANCE
-// ============================================
 console.log("\n=== 2. INHERITANCE ===");
 
 class Student extends Person {
@@ -47,9 +41,7 @@ const student = new Student("Ali", 20, "JavaScript");
 console.log("Student greet:", student.greet());
 console.log("Student study:", student.study());
 
-// ============================================
 // ENCAPSULATION
-// ============================================
 console.log("\n=== 3. ENCAPSULATION ===");
 
 class BankAccount {
@@ -81,6 +73,4 @@ account.deposit(500);
 account.withdraw(200);
 console.log("Balance:", account.getBalance());
 
-console.log("\n============================================");
-console.log("Batafsil ma'lumot uchun alohida fayllarni oching!");
-console.log("============================================");
+console.log("\nBatafsil ma'lumot uchun alohida fayllarni oching!");

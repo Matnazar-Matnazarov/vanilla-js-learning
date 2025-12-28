@@ -5,9 +5,9 @@
  * new keyword bilan chaqiriladi
  */
 
-// ============================================
+
 // 1. Constructor Funksiyasi (Eski usul)
-// ============================================
+
 
 function Person(name, age) {
     // this yangi object'ni ko'rsatadi
@@ -23,9 +23,9 @@ function Person(name, age) {
 const person1 = new Person("Ali", 25);
 console.log("Person 1:", person1.greet());
 
-// ============================================
+
 // 2. Prototype Metodlar (Optimallashtirilgan)
-// ============================================
+
 
 function Car(brand, model, year) {
     this.brand = brand;
@@ -52,9 +52,9 @@ console.log("Car info:", car1.getInfo());
 console.log("Car start:", car1.start());
 console.log("Car age:", car1.getAge(), "yil");
 
-// ============================================
+
 // 3. Class Constructor (Yangi usul - ES6)
-// ============================================
+
 
 class Student {
     constructor(name, course) {
@@ -99,9 +99,9 @@ console.log("Average:", student1.getAverage());
 console.log("Highest:", student1.getHighestGrade());
 console.log("Lowest:", student1.getLowestGrade());
 
-// ============================================
+
 // 4. Constructor Validation
-// ============================================
+
 
 function User(username, email) {
     // Validation - ma'lumotlarni tekshirish
@@ -126,9 +126,9 @@ try {
     console.error("Error:", error.message);
 }
 
-// ============================================
+
 // 5. Default Parametrlar
-// ============================================
+
 
 function Book(title, author = "Noma'lum", pages = 0, isbn = null) {
     this.title = title;
@@ -144,9 +144,9 @@ const book2 = new Book("Python Basics", "John Doe", 300, "978-1234567890");
 console.log("Book 1:", book1);
 console.log("Book 2:", book2);
 
-// ============================================
+
 // 6. Constructor Pattern - Real-world misol
-// ============================================
+
 
 function Product(name, price, category = "General") {
     // Validation

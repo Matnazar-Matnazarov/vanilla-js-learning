@@ -5,9 +5,9 @@
  * extends keyword yordamida amalga oshiriladi
  */
 
-// ============================================
+
 // 1. Oddiy Inheritance
-// ============================================
+
 
 class Animal {
     constructor(name, species) {
@@ -80,9 +80,9 @@ const cat = new Cat("Whiskers", "Orange");
 console.log("Cat speak:", cat.speak());
 console.log("Cat climb:", cat.climb());
 
-// ============================================
+
 // 2. Multi-level Inheritance (Ko'p darajali)
-// ============================================
+
 
 class Vehicle {
     constructor(brand, year) {
@@ -157,9 +157,9 @@ console.log("Drive:", tesla.drive());
 console.log("Charge:", tesla.charge());
 console.log("Battery:", tesla.getBatteryLevel());
 
-// ============================================
+
 // 3. Method Overriding - Metodni qayta yozish
-// ============================================
+
 
 class Shape {
     constructor(name) {
@@ -242,9 +242,9 @@ console.log("Rectangle:", rect.getInfo());
 console.log("Circle:", circle.getInfo());
 console.log("Triangle:", triangle.getInfo());
 
-// ============================================
+
 // 4. instanceof Operator
-// ============================================
+
 
 // instanceof - object qaysi class'dan yaratilganini tekshiradi
 console.log("dog instanceof Dog:", dog instanceof Dog); // true
