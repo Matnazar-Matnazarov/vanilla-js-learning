@@ -9,13 +9,9 @@
  * - querySelectorAll - CSS selector bo'yicha barcha elementlar
  */
 
-console.log("============================================");
-console.log("ELEMENTLARNI TANLASH");
-console.log("============================================\n");
+console.log("ELEMENTLARNI TANLASH\n");
 
-// ============================================
 // 1. getElementById
-// ============================================
 console.log("=== 1. getElementById ===");
 console.log("ID bo'yicha bitta elementni qaytaradi\n");
 
@@ -39,9 +35,7 @@ console.log("Mavjud bo'lmagan element:", nonExistent); // null
 
 console.log("");
 
-// ============================================
 // 2. getElementsByClassName
-// ============================================
 console.log("=== 2. getElementsByClassName ===");
 console.log("Class nomi bo'yicha elementlar ro'yxatini qaytaradi\n");
 
@@ -56,9 +50,7 @@ for (let i = 0; i < cards.length; i++) {
 
 console.log("");
 
-// ============================================
 // 3. getElementsByTagName
-// ============================================
 console.log("=== 3. getElementsByTagName ===");
 console.log("Tag nomi bo'yicha elementlar ro'yxatini qaytaradi\n");
 
@@ -70,9 +62,7 @@ console.log(`✅ ${paragraphs.length} ta paragraph elementi topildi`);
 
 console.log("");
 
-// ============================================
 // 4. querySelector
-// ============================================
 console.log("=== 4. querySelector ===");
 console.log("CSS selector bo'yicha birinchi elementni qaytaradi\n");
 
@@ -102,9 +92,7 @@ if (demoButton) {
 
 console.log("");
 
-// ============================================
 // 5. querySelectorAll
-// ============================================
 console.log("=== 5. querySelectorAll ===");
 console.log("CSS selector bo'yicha barcha elementlarni qaytaradi\n");
 
@@ -131,9 +119,7 @@ console.log(`✅ ${cardButtons.length} ta card ichidagi button elementi topildi`
 
 console.log("");
 
-// ============================================
 // 6. FARQLAR VA AFZALLIKLAR
-// ============================================
 console.log("=== 6. Metodlar orasidagi farqlar ===");
 console.log("");
 
@@ -161,9 +147,7 @@ console.log("  - Array metodlari ishlamaydi");
 console.log("  - Array.from() yoki spread operator bilan array'ga aylantirish mumkin");
 console.log("");
 
-// ============================================
 // 7. AMALIY MISOL
-// ============================================
 console.log("=== 7. Amaliy misol ===");
 console.log("");
 
@@ -181,6 +165,4 @@ cardsInfo.forEach((card, index) => {
     console.log(`  Tugma mavjud: ${button ? 'Ha' : 'Yo\'q'}`);
 });
 
-console.log("\n============================================");
-console.log("Elementlarni tanlash mavzusi tugadi!");
-console.log("============================================");
+console.log("\nElementlarni tanlash mavzusi tugadi!");
