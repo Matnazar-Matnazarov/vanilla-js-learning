@@ -5,20 +5,14 @@
  * va asosiy misollarni ko'rsatadi
  */
 
-console.log("============================================");
-console.log("DARS 17: DOM BILAN ISHLASH");
-console.log("============================================\n");
+console.log("DARS 17: DOM BILAN ISHLASH\n");
 
-// ============================================
 // DOM NIMA?
-// ============================================
 console.log("=== DOM (Document Object Model) ===");
 console.log("DOM - bu HTML hujjatining daraxt struktura ko'rinishi");
 console.log("JavaScript orqali HTML elementlarini tanlash va o'zgartirish imkoniyati\n");
 
-// ============================================
 // DOCUMENT OBYEKTI
-// ============================================
 console.log("=== Document Ob'yekti ===");
 console.log("document - bu butun HTML hujjatini ifodalaydi");
 console.log("document.documentElement:", document.documentElement.tagName);
@@ -26,9 +20,7 @@ console.log("document.body:", document.body.tagName);
 console.log("document.head:", document.head.tagName);
 console.log("");
 
-// ============================================
 // ELEMENTLARNI TANLASH (ASOSIY MISOL)
-// ============================================
 console.log("=== Elementlarni tanlash (asosiy) ===");
 
 // getElementById - ID bo'yicha element tanlash
@@ -47,6 +39,4 @@ if (demoContainer) {
 const buttons = document.querySelectorAll('button');
 console.log(`✅ querySelectorAll orqali ${buttons.length} ta button elementi topildi`);
 
-console.log("\n============================================");
-console.log("Batafsil ma'lumot uchun alohida fayllarni oching!");
-console.log("============================================");
+console.log("\nBatafsil ma'lumot uchun alohida fayllarni oching!");
