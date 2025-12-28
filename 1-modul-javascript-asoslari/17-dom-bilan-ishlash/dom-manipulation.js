@@ -12,13 +12,9 @@
  * - cloneNode() - elementni nusxalash
  */
 
-console.log("============================================");
-console.log("DOM MANIPULYATSIYASI");
-console.log("============================================\n");
+console.log("DOM MANIPULYATSIYASI\n");
 
-// ============================================
 // 1. createElement - Yangi element yaratish
-// ============================================
 console.log("=== 1. createElement ===");
 console.log("Yangi HTML element yaratish\n");
 
@@ -40,9 +36,7 @@ console.log("✅ Yangi span elementi yaratildi:", newSpan.tagName);
 
 console.log("");
 
-// ============================================
 // 2. appendChild - Elementga child qo'shish
-// ============================================
 console.log("=== 2. appendChild ===");
 console.log("Elementga child element qo'shish\n");
 
@@ -74,9 +68,7 @@ if (demoContainer) {
 
 console.log("");
 
-// ============================================
 // 3. removeChild - Child elementni o'chirish
-// ============================================
 console.log("=== 3. removeChild ===");
 console.log("Child elementni o'chirish\n");
 
@@ -96,9 +88,7 @@ if (demoContainer && demoContainer.children.length > 0) {
 
 console.log("");
 
-// ============================================
 // 4. insertBefore - Elementni ma'lum joyga qo'yish
-// ============================================
 console.log("=== 4. insertBefore ===");
 console.log("Elementni ma'lum child oldiga qo'yish\n");
 
@@ -119,9 +109,7 @@ if (demoContainer) {
 
 console.log("");
 
-// ============================================
 // 5. replaceChild - Elementni almashtirish
-// ============================================
 console.log("=== 5. replaceChild ===");
 console.log("Child elementni boshqa element bilan almashtirish\n");
 
@@ -146,9 +134,7 @@ if (demoContainer) {
 
 console.log("");
 
-// ============================================
 // 6. cloneNode - Elementni nusxalash
-// ============================================
 console.log("=== 6. cloneNode ===");
 console.log("Elementni nusxalash\n");
 
@@ -172,9 +158,7 @@ if (demoText) {
 
 console.log("");
 
-// ============================================
 // 7. AMALIY MISOL - Dinamik ro'yxat yaratish
-// ============================================
 console.log("=== 7. Amaliy misol - Dinamik ro'yxat ===");
 console.log("");
 
@@ -220,9 +204,7 @@ if (demoContainer) {
 
 console.log("");
 
-// ============================================
 // 8. METODLAR ORASIDAGI FARQLAR
-// ============================================
 console.log("=== 8. Metodlar orasidagi farqlar ===");
 console.log("");
 
@@ -252,6 +234,4 @@ console.log("  - false - shallow clone (faqat element)");
 console.log("  - true - deep clone (element + child'lar)");
 console.log("");
 
-console.log("\n============================================");
-console.log("DOM manipulyatsiyasi mavzusi tugadi!");
-console.log("============================================");
+console.log("\nDOM manipulyatsiyasi mavzusi tugadi!");
