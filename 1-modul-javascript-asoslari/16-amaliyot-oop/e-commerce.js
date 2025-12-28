@@ -4,9 +4,9 @@
  * Bu loyiha Encapsulation prinsiplaridan foydalanib e-commerce tizimini yaratadi
  */
 
-// ============================================
+
 // 1. Product Class - Encapsulation
-// ============================================
+
 
 class Product {
     #id;
@@ -128,9 +128,9 @@ class Product {
     }
 }
 
-// ============================================
+
 // 2. Cart Item Class
-// ============================================
+
 
 class CartItem {
     #product;
@@ -182,9 +182,9 @@ class CartItem {
     }
 }
 
-// ============================================
+
 // 3. Shopping Cart Class
-// ============================================
+
 
 class ShoppingCart {
     #items = [];
@@ -261,9 +261,9 @@ class ShoppingCart {
     }
 }
 
-// ============================================
+
 // 4. Order Class
-// ============================================
+
 
 class Order {
     #id;
@@ -341,9 +341,9 @@ class Order {
     }
 }
 
-// ============================================
+
 // 5. Export
-// ============================================
+
 
 if (typeof module !== 'undefined' && module.exports) {
     module.exports = {

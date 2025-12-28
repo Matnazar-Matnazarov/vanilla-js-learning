@@ -4,13 +4,11 @@
  * Bu script barcha amaliy loyihalarni birlashtiradi
  */
 
-console.log("============================================");
-console.log("DARS 16: AMALIYOT. OOP");
-console.log("============================================\n");
+console.log("DARS 16: AMALIYOT. OOP\n");
 
-// ============================================
+
 // 1. TODO APP DEMO
-// ============================================
+
 
 function demonstrateTodoApp() {
     console.log("=== 1. TODO APP DEMO ===\n");
@@ -46,9 +44,9 @@ function demonstrateTodoApp() {
     return todoManager;
 }
 
-// ============================================
+
 // 2. LIBRARY SYSTEM DEMO
-// ============================================
+
 
 function demonstrateLibrarySystem() {
     console.log("\n=== 2. LIBRARY SYSTEM DEMO ===\n");
@@ -83,9 +81,9 @@ function demonstrateLibrarySystem() {
     return library;
 }
 
-// ============================================
+
 // 3. E-COMMERCE DEMO
-// ============================================
+
 
 function demonstrateECommerce() {
     console.log("\n=== 3. E-COMMERCE DEMO ===\n");
@@ -124,9 +122,9 @@ function demonstrateECommerce() {
     return { product1, cart, order };
 }
 
-// ============================================
+
 // 4. GAME ENGINE DEMO
-// ============================================
+
 
 function demonstrateGameEngine() {
     console.log("\n=== 4. GAME ENGINE DEMO ===\n");
@@ -162,9 +160,9 @@ function demonstrateGameEngine() {
     return game;
 }
 
-// ============================================
+
 // 5. BARCHA DEMO'LARNI ISHGA TUSHIRISH
-// ============================================
+
 
 window.onload = function() {
     console.log("🚀 Barcha loyihalar yuklanmoqda...\n");
@@ -179,7 +177,7 @@ window.onload = function() {
             
             console.log("\n============================================");
             console.log("✅ Barcha demo'lar muvaffaqiyatli ishladi!");
-            console.log("============================================");
+            
         } catch (error) {
             console.error("❌ Xato:", error.message);
             console.log("\n⚠️ Iltimos, barcha script fayllarini yuklang!");

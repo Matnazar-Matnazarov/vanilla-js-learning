@@ -4,9 +4,9 @@
  * Bu loyiha Inheritance prinsiplaridan foydalanib kutubxona tizimini yaratadi
  */
 
-// ============================================
+
 // 1. Base Class - Item
-// ============================================
+
 
 class LibraryItem {
     constructor(id, title, author, year) {
@@ -56,9 +56,9 @@ class LibraryItem {
     }
 }
 
-// ============================================
+
 // 2. Book Class - Inheritance
-// ============================================
+
 
 class Book extends LibraryItem {
     constructor(id, title, author, year, isbn, pages) {
@@ -85,9 +85,9 @@ class Book extends LibraryItem {
     }
 }
 
-// ============================================
+
 // 3. Magazine Class - Inheritance
-// ============================================
+
 
 class Magazine extends LibraryItem {
     constructor(id, title, author, year, issueNumber, publisher) {
@@ -107,9 +107,9 @@ class Magazine extends LibraryItem {
     }
 }
 
-// ============================================
+
 // 4. DVD Class - Inheritance
-// ============================================
+
 
 class DVD extends LibraryItem {
     constructor(id, title, director, year, duration, genre) {
@@ -138,9 +138,9 @@ class DVD extends LibraryItem {
     }
 }
 
-// ============================================
+
 // 5. Library Manager Class
-// ============================================
+
 
 class LibraryManager {
     constructor() {
@@ -231,9 +231,9 @@ class LibraryManager {
     }
 }
 
-// ============================================
+
 // 6. Export va Test
-// ============================================
+
 
 if (typeof module !== 'undefined' && module.exports) {
     module.exports = {

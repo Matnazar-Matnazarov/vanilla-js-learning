@@ -4,9 +4,9 @@
  * Bu loyiha OOP prinsiplaridan foydalanib professional todo list yaratadi
  */
 
-// ============================================
+
 // 1. Todo Item Class
-// ============================================
+
 
 class TodoItem {
     constructor(id, title, description = "", priority = "medium") {
@@ -62,9 +62,9 @@ class TodoItem {
     }
 }
 
-// ============================================
+
 // 2. Todo Manager Class
-// ============================================
+
 
 class TodoManager {
     constructor() {
@@ -172,9 +172,9 @@ class TodoManager {
     }
 }
 
-// ============================================
+
 // 3. Export va Test
-// ============================================
+
 
 // Test qilish
 if (typeof module !== 'undefined' && module.exports) {
