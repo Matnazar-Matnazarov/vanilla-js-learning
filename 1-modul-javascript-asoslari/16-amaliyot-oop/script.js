@@ -175,7 +175,6 @@ window.onload = function() {
             demonstrateECommerce();
             demonstrateGameEngine();
             
-            console.log("\n============================================");
             console.log("✅ Barcha demo'lar muvaffaqiyatli ishladi!");
             
         } catch (error) {
