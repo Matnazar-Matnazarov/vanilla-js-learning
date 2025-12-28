@@ -8,13 +8,9 @@
  * - outerHTML - element o'zi bilan birga HTML kodini o'qish/yozish
  */
 
-console.log("============================================");
-console.log("KONTENT MANIPULYATSIYASI");
-console.log("============================================\n");
+console.log("KONTENT MANIPULYATSIYASI\n");
 
-// ============================================
 // 1. innerHTML - HTML kodini o'zgartirish
-// ============================================
 console.log("=== 1. innerHTML ===");
 console.log("Element ichidagi HTML kodini o'qish va yozish\n");
 
@@ -43,9 +39,7 @@ if (demoContainer) {
 
 console.log("");
 
-// ============================================
 // 2. textContent - Faqat matnni o'zgartirish
-// ============================================
 console.log("=== 2. textContent ===");
 console.log("Element ichidagi faqat matnni o'qish va yozish\n");
 
@@ -71,9 +65,7 @@ if (demoText) {
 
 console.log("");
 
-// ============================================
 // 3. innerText - Ko'rinadigan matnni o'zgartirish
-// ============================================
 console.log("=== 3. innerText ===");
 console.log("Element ichidagi ko'rinadigan matnni o'qish va yozish\n");
 
@@ -101,9 +93,7 @@ console.log("textContent:", testElement.textContent);
 console.log("innerText:", testElement.innerText);
 console.log("");
 
-// ============================================
 // 4. outerHTML - Element o'zi bilan birga HTML
-// ============================================
 console.log("=== 4. outerHTML ===");
 console.log("Element o'zi bilan birga HTML kodini o'qish va yozish\n");
 
@@ -120,9 +110,7 @@ if (demoText) {
 
 console.log("");
 
-// ============================================
 // 5. FARQLAR: innerHTML vs textContent vs innerText
-// ============================================
 console.log("=== 5. Xususiyatlar orasidagi farqlar ===");
 console.log("");
 
@@ -159,9 +147,7 @@ console.log("  - Performance jihatdan sekinroq");
 console.log("  - Natija:", comparisonElement.innerText);
 console.log("");
 
-// ============================================
 // 6. AMALIY MISOL - Dinamik kontent yaratish
-// ============================================
 console.log("=== 6. Amaliy misol - Dinamik kontent ===");
 console.log("");
 
@@ -190,9 +176,7 @@ if (demoContainer) {
 
 console.log("");
 
-// ============================================
 // 7. XAVFSIZLIK MASALALARI
-// ============================================
 console.log("=== 7. Xavfsizlik masalalari ===");
 console.log("");
 
@@ -208,9 +192,7 @@ console.log("  ✅ Yaxshi: element.textContent = userInput;");
 console.log("  ✅ Yaxshi: element.innerHTML = sanitize(userInput);");
 console.log("");
 
-// ============================================
 // 8. PERFORMANCE TAVSIYALARI
-// ============================================
 console.log("=== 8. Performance tavsiyalari ===");
 console.log("");
 
@@ -230,6 +212,4 @@ console.log("   - createElement + appendChild innerHTML dan ba'zida tezroq");
 console.log("   - Lekin innerHTML sodda va qulay");
 console.log("");
 
-console.log("\n============================================");
-console.log("Kontent manipulyatsiyasi mavzusi tugadi!");
-console.log("============================================");
+console.log("\nKontent manipulyatsiyasi mavzusi tugadi!");
