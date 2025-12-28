@@ -5,9 +5,9 @@
  * Class'dan new keyword yordamida instance (nusxa) yaratiladi
  */
 
-// ============================================
+
 // 1. Oddiy Class yaratish
-// ============================================
+
 
 class Person {
     // Constructor - class instance yaratilganda ishlaydi
@@ -35,9 +35,9 @@ const person1 = new Person("Matnazar", 25);
 console.log("Greet:", person1.greet());
 console.log("Info:", person1.getInfo());
 
-// ============================================
+
 // 2. Method Chaining - Metodlarni zanjirlash
-// ============================================
+
 
 class Calculator {
     constructor() {
@@ -75,9 +75,9 @@ const calc = new Calculator();
 const finalResult = calc.add(10).multiply(2).subtract(5).getResult();
 console.log("Calculator result:", finalResult);
 
-// ============================================
+
 // 3. Static Metodlar va Properties
-// ============================================
+
 
 class MathHelper {
     // Static metod - class'ga tegishli, instance'ga emas
@@ -102,9 +102,9 @@ console.log("Static add:", MathHelper.add(5, 3));
 console.log("Static PI:", MathHelper.PI);
 console.log("Circle area:", MathHelper.getCircleArea(5));
 
-// ============================================
+
 // 4. Getter va Setter
-// ============================================
+
 
 class Temperature {
     constructor(celsius) {
@@ -144,9 +144,9 @@ console.log("Kelvin:", temp.kelvin);
 temp.celsius = 30;
 console.log("New Celsius:", temp.celsius);
 
-// ============================================
+
 // 5. Private Fields (ES2022)
-// ============================================
+
 
 class BankAccount {
     // Private field - # bilan belgilanadi

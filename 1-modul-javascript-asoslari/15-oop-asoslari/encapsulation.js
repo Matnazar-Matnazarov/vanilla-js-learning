@@ -5,9 +5,9 @@
  * Faqat metodlar orqali ma'lumotlarga kirish mumkin
  */
 
-// ============================================
+
 // 1. Private Fields (ES2022) - Eng yaxshi usul
-// ============================================
+
 
 class BankAccount {
     // Private fields - # bilan belgilanadi
@@ -95,9 +95,9 @@ console.log("Withdraw:", account.withdraw(200, "1234"));
 console.log("Balance:", account.getBalance("1234"));
 console.log("History:", account.getHistory("1234"));
 
-// ============================================
+
 // 2. Getter va Setter bilan Encapsulation
-// ============================================
+
 
 class User {
     constructor(username, email) {
@@ -184,9 +184,9 @@ try {
     console.error("Error:", error.message);
 }
 
-// ============================================
+
 // 3. Closure bilan Encapsulation (Eski usul)
-// ============================================
+
 
 function createCounter(initialValue = 0) {
     // Closure - count o'zgaruvchisi yashirin
@@ -222,9 +222,9 @@ console.log("Decrement:", counter.decrement(3));
 console.log("Current:", counter.getCount());
 console.log("Reset:", counter.reset());
 
-// ============================================
+
 // 4. Module Pattern - IIFE bilan
-// ============================================
+
 
 const Calculator = (function() {
     // Private o'zgaruvchilar
