@@ -103,8 +103,74 @@ Bu kurs JavaScript dasturlash tilini noldan o'rganish uchun tayyorlangan profess
     - Event handling
 
 20. **Amaliyot. Hodisalar** (12:56)
-    - Praktik mashqlar
-    - Event-driven loyihalar
+   - Praktik mashqlar
+   - Event-driven loyihalar
+
+### 2-Modul. Advanced JavaScript
+**Davomiyligi:** TBD | **Darslar soni:** 10 ta
+
+#### Darslar ro'yxati:
+
+21. **Advanced Functions** - Ilg'or funksiyalar va patterns
+    - Higher-order functions
+    - Closure va lexical scope
+    - Currying va partial application
+    - Function composition
+    - Recursion
+
+22. **Promises va Async/Await** - Asinxron dasturlash
+    - Promises
+    - Async/Await
+    - Error handling
+    - Fetch API
+
+23. **Modules va ES6+** - Module system va modern JavaScript
+    - ES6 Modules
+    - Import/Export
+    - Modern JavaScript features
+    - Code organization
+
+24. **Error Handling** - Xatolarni boshqarish
+    - Try/Catch/Finally
+    - Error types
+    - Custom errors
+    - Error handling patterns
+
+25. **Regular Expressions** - Regex bilan ishlash
+    - Regex sintaksisi
+    - Pattern matching
+    - String manipulation
+    - Practical examples
+
+26. **JSON va API** - JSON va API bilan ishlash
+    - JSON parsing
+    - API requests
+    - REST API
+    - Data fetching
+
+27. **LocalStorage va SessionStorage** - Ma'lumotlarni saqlash
+    - Browser storage
+    - Data persistence
+    - Storage API
+    - Best practices
+
+28. **Timers va Animations** - Timerlar va animatsiyalar
+    - setTimeout/setInterval
+    - RequestAnimationFrame
+    - Animations
+    - Performance
+
+29. **Performance Optimization** - Performance optimizatsiyasi
+    - Code optimization
+    - Memory management
+    - Performance tools
+    - Best practices
+
+30. **Best Practices** - Professional kod yozish
+    - Code style
+    - Documentation
+    - Testing
+    - Deployment
 
 ## 📁 Loyiha strukturası
 
@@ -131,6 +197,17 @@ vanilla-js-learning/
 │   ├── 18-amaliyot-dom/
 │   ├── 19-hodisalar-bilan-ishlash/
 │   └── 20-amaliyot-hodisalar/
+├── 2-modul-advanced-javascript/
+│   ├── 21-advanced-functions/
+│   ├── 22-promises-va-async-await/
+│   ├── 23-modules-va-es6/
+│   ├── 24-error-handling/
+│   ├── 25-regular-expressions/
+│   ├── 26-json-va-api/
+│   ├── 27-localstorage-va-sessionstorage/
+│   ├── 28-timers-va-animations/
+│   ├── 29-performance-optimization/
+│   └── 30-best-practices/
 ├── README.md
 └── LICENSE
 ```
@@ -149,9 +226,12 @@ vanilla-js-learning/
 
 ## 🎓 Progress
 
-- ✅ Dars 1-8: Tugallandi
-- 🔄 Dars 9: Hozirgi dars
-- ⏳ Dars 10-20: Keyingi darslar
+### 1-Modul. JavaScript asoslari
+- ✅ Dars 1-20: Tugallandi
+
+### 2-Modul. Advanced JavaScript
+- 🔄 Dars 21: Hozirgi dars (Advanced Functions)
+- ⏳ Dars 22-30: Keyingi darslar
 
 ## 📄 License
 
