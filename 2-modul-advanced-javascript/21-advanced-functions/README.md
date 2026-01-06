@@ -1,45 +1,31 @@
-# Dars 21: Advanced Functions
+# Dars 21: ClassList & Delegatsiya
+
+**Davomiyligi:** 17:49
 
 ## 📋 Dars mazmuni
 
-Bu darsda JavaScript funksiyalarining ilg'or xususiyatlarini o'rganamiz:
-- Higher-order functions
-- Closure va lexical scope
-- Currying va partial application
-- Function composition
-- Recursion
+Bu darsda DOM bilan ishlashning ilg'or usullarini o'rganamiz:
+- classList metodlari bilan ishlash
+- Event delegation prinsiplari
+- Dynamic class management
+- Event delegation patterns
 
 ## 🎯 O'rganiladigan mavzular
 
-### Higher-Order Functions
-- Funksiyalarni parametr sifatida qabul qilish
-- Funksiyalarni qaytarish
-- Map, filter, reduce bilan ishlash
-- Custom higher-order functions
+### classList Metodlari
+- add() - class qo'shish
+- remove() - class o'chirish
+- toggle() - class toggle qilish
+- contains() - class mavjudligini tekshirish
+- replace() - classni almashtirish
+- forEach() - classlar bo'yicha iteratsiya
 
-### Closure
-- Closure tushunchasi
-- Lexical scope
-- Closure bilan ishlash
-- Practical use cases
-
-### Currying va Partial Application
-- Currying prinsiplari
-- Partial application
-- Function transformation
+### Event Delegation
+- Event delegation prinsiplari
+- Parent elementda listener qo'yish
+- Dynamic elementlar bilan ishlash
+- Performance afzalliklari
 - Real-world misollar
-
-### Function Composition
-- Funksiyalarni birlashtirish
-- Pipe va compose patterns
-- Functional programming
-- Code reusability
-
-### Recursion
-- Recursive funksiyalar
-- Base case va recursive case
-- Stack overflow
-- Tail recursion
 
 ## 📁 Fayl struktura
 
@@ -48,11 +34,8 @@ Bu darsda JavaScript funksiyalarining ilg'or xususiyatlarini o'rganamiz:
 ├── README.md                  # Dars haqida ma'lumot
 ├── index.html                 # Interaktiv HTML interfeys
 ├── script.js                  # Asosiy integratsiya script
-├── higher-order-functions.js  # Higher-order functions misollari
-├── closure.js                 # Closure misollari
-├── currying.js                # Currying va partial application
-├── function-composition.js    # Function composition misollari
-└── recursion.js               # Recursion misollari
+├── classlist-methods.js       # classList metodlari misollari
+└── event-delegation.js        # Event delegation misollari
 ```
 
 ## 🚀 Qanday ishlatish
@@ -65,49 +48,32 @@ Bu darsda JavaScript funksiyalarining ilg'or xususiyatlarini o'rganamiz:
 
 ## 📝 Vazifalar
 
-- [ ] Higher-order functions yaratish
-- [ ] Closure bilan ishlash
-- [ ] Currying va partial application
-- [ ] Function composition
-- [ ] Recursive funksiyalar yaratish
+- [ ] classList metodlari bilan ishlash
+- [ ] Event delegation qo'llash
+- [ ] Dynamic class management
+- [ ] Real-world misollar yaratish
 
 ## 🎓 O'rganiladigan tushunchalar
 
-1. **Higher-Order Functions:**
-   - Funksiyalarni birinchi darajali obyektlar sifatida ishlatish
-   - Callback funksiyalar
-   - Funksiyalarni qaytarish
+1. **classList Metodlari:**
+   - add/remove/toggle - class boshqaruvi
+   - contains - class mavjudligini tekshirish
+   - replace - classni almashtirish
+   - forEach - classlar bo'yicha iteratsiya
 
-2. **Closure:**
-   - Lexical scope
-   - Closure yaratish
-   - Data privacy
-   - Module pattern
-
-3. **Currying:**
-   - Funksiyalarni transformatsiya qilish
-   - Partial application
-   - Function reuse
-
-4. **Function Composition:**
-   - Funksiyalarni birlashtirish
-   - Pipe pattern
-   - Compose pattern
-
-5. **Recursion:**
-   - Recursive thinking
-   - Base case
-   - Recursive algorithms
-   - Performance considerations
+2. **Event Delegation:**
+   - Parent elementda listener
+   - Dynamic elementlar bilan ishlash
+   - Performance optimizatsiyasi
+   - Memory samaradorligi
 
 ## 💻 Kod xususiyatlari
 
 - **Clean Code** - o'qish oson, tushunarli kod
 - **Professional Comments** - har bir qism uchun aniq izohlar
-- **Functional Programming** - functional programming prinsiplari
 - **Best Practices** - professional kod yozish
 - **Real Examples** - real-world misollar
 
 ## 📚 Keyingi dars
 
-**Dars 22:** Promises va Async/Await - Asinxron dasturlash, Promises, Async/Await
+**Dars 22:** Amaliyot. ClassList & Delegatsiya - Praktik mashqlar va loyihalar
