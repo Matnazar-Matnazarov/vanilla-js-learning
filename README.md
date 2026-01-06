@@ -107,70 +107,64 @@ Bu kurs JavaScript dasturlash tilini noldan o'rganish uchun tayyorlangan profess
    - Event-driven loyihalar
 
 ### 2-Modul. Advanced JavaScript
-**Davomiyligi:** TBD | **Darslar soni:** 10 ta
+**Davomiyligi:** 3.23 soat | **Darslar soni:** 11 ta
 
 #### Darslar ro'yxati:
 
-21. **Advanced Functions** - Ilg'or funksiyalar va patterns
-    - Higher-order functions
-    - Closure va lexical scope
-    - Currying va partial application
-    - Function composition
-    - Recursion
+21. **ClassList & Delegatsiya** (17:49)
+    - classList metodlari
+    - Event delegation
+    - Dynamic class management
 
-22. **Promises va Async/Await** - Asinxron dasturlash
-    - Promises
-    - Async/Await
-    - Error handling
-    - Fetch API
+22. **Amaliyot. ClassList & Delegatsiya** (20:24)
+    - Praktik mashqlar
+    - classList loyihalari
+    - Event delegation patterns
 
-23. **Modules va ES6+** - Module system va modern JavaScript
-    - ES6 Modules
-    - Import/Export
-    - Modern JavaScript features
-    - Code organization
-
-24. **Error Handling** - Xatolarni boshqarish
-    - Try/Catch/Finally
-    - Error types
-    - Custom errors
-    - Error handling patterns
-
-25. **Regular Expressions** - Regex bilan ishlash
-    - Regex sintaksisi
-    - Pattern matching
-    - String manipulation
-    - Practical examples
-
-26. **JSON va API** - JSON va API bilan ishlash
-    - JSON parsing
-    - API requests
-    - REST API
-    - Data fetching
-
-27. **LocalStorage va SessionStorage** - Ma'lumotlarni saqlash
-    - Browser storage
-    - Data persistence
-    - Storage API
-    - Best practices
-
-28. **Timers va Animations** - Timerlar va animatsiyalar
-    - setTimeout/setInterval
+23. **Animatsiya va Interval** (15:12)
+    - setTimeout va setInterval
     - RequestAnimationFrame
-    - Animations
-    - Performance
+    - Animatsiyalar yaratish
 
-29. **Performance Optimization** - Performance optimizatsiyasi
-    - Code optimization
-    - Memory management
-    - Performance tools
-    - Best practices
+24. **Date** (16:21)
+    - Date obyekti
+    - Vaqt bilan ishlash
+    - Date formatlash
 
-30. **Best Practices** - Professional kod yozish
-    - Code style
-    - Documentation
-    - Testing
-    - Deployment
+25. **Amaliyot. Date va Loader** (23:18)
+    - Praktik mashqlar
+    - Date loyihalari
+    - Loader yaratish
+
+26. **Document va Window Parametrlari** (19:54)
+    - Document obyekti parametrlari
+    - Window obyekti parametrlari
+    - Screen va viewport ma'lumotlari
+
+27. **Amaliyot. Document va Window Parametrlari** (21:07)
+    - Praktik mashqlar
+    - Responsive design
+    - Viewport management
+
+28. **Function constructor** (11:40)
+    - Constructor funksiyalar
+    - new keyword
+    - Prototype bilan ishlash
+
+29. **Context this** (25:01)
+    - this keyword
+    - Context binding
+    - call, apply, bind
+
+30. **Class ES-6 va Rest operator** (13:44)
+    - ES6 Classes
+    - Rest operator
+    - Spread operator
+
+31. **Loyiha. Class** (19:21)
+    - To'liq amaliy loyiha
+    - ES6 Classes bilan ishlash
+    - Professional kod yozish
 
 ## 📁 Loyiha strukturası
 
@@ -199,15 +193,16 @@ vanilla-js-learning/
 │   └── 20-amaliyot-hodisalar/
 ├── 2-modul-advanced-javascript/
 │   ├── 21-advanced-functions/
-│   ├── 22-promises-va-async-await/
-│   ├── 23-modules-va-es6/
-│   ├── 24-error-handling/
-│   ├── 25-regular-expressions/
-│   ├── 26-json-va-api/
-│   ├── 27-localstorage-va-sessionstorage/
-│   ├── 28-timers-va-animations/
-│   ├── 29-performance-optimization/
-│   └── 30-best-practices/
+│   ├── 22-amaliyot-classlist-delegatsiya/
+│   ├── 23-animatsiya-va-interval/
+│   ├── 24-date/
+│   ├── 25-amaliyot-date-va-loader/
+│   ├── 26-document-va-window-parametrlari/
+│   ├── 27-amaliyot-document-va-window-parametrlari/
+│   ├── 28-function-constructor/
+│   ├── 29-context-this/
+│   ├── 30-class-es6-va-rest-operator/
+│   └── 31-loyiha-class/
 ├── README.md
 └── LICENSE
 ```
@@ -236,16 +231,14 @@ Savollar, takliflar va muhokamalar uchun [Discussions](https://github.com/Matnaz
 - ✅ Dars 1-20: Tugallandi
 
 ### 2-Modul. Advanced JavaScript
-- 🔄 Dars 21: Hozirgi dars (Advanced Functions)
-- ⏳ Dars 22-30: Keyingi darslar
+- ✅ Dars 21-31: Tugallandi
 
 ## 📄 License
 
 Bu loyiha [LICENSE](LICENSE) faylida ko'rsatilgan litsenziya bo'yicha tarqatiladi.
 
----
 
-**Yaratilgan:** 2025
+**Yaratilgan:** 2026
 **Muallif:** JavaScript Learning Course  
 **Versiya:** 1.0.0
 
