@@ -44,7 +44,16 @@ Har bir darsda:
 ## 🚀 Keyingi qadamlar
 
 Modulni tugatgandan so'ng:
-- Keyingi modullarga o'tish
+- ✅ 1-Modul tugallandi
+- 🔄 [2-Modul. Advanced JavaScript](../2-modul-advanced-javascript/) - Ilg'or JavaScript tushunchalari
 - Amaliy loyihalar yaratish
 - Bilimlarni mustahkamlash
 
+## 📚 Keyingi modul
+
+**2-Modul. Advanced JavaScript:**
+- Advanced Functions
+- Promises va Async/Await
+- Modules va ES6+
+- Error Handling
+- va boshqalar...
