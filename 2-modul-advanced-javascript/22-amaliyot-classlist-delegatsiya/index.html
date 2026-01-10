@@ -157,6 +157,11 @@
 
         function loadScript(filename) {
             output.textContent = '';
+            
+            // Avvalgi scriptlarni o'chirish
+            const existingScripts = document.querySelectorAll('script[src*="classlist-project"], script[src*="delegation-project"]');
+            existingScripts.forEach(script => script.remove());
+            
             const script = document.createElement('script');
             script.src = filename;
             script.onload = () => console.log(`\n✅ ${filename} yuklandi!\n`);
