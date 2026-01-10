@@ -1,6 +1,9 @@
 // classList Amaliy Loyihasi
 // Bu fayl classList metodlarini real-world loyihada qo'llashni ko'rsatadi
 
+(function() {
+'use strict';
+
 console.log('📋 classList Amaliy Loyihasi\n');
 
 // Loyiha: Theme Switcher (Tema o'zgartirish)
@@ -391,3 +394,5 @@ console.log('   ✅ forEach() - classlar bo\'yicha iteratsiya');
 console.log('');
 
 console.log('✅ classList Amaliy Loyihasi tugadi!\n');
+
+})();
