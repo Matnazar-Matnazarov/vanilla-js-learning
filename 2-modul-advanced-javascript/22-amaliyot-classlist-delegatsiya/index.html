@@ -160,8 +160,11 @@
             
             // Avvalgi scriptlarni o'chirish
             const existingScripts = document.querySelectorAll('script[src*="classlist-project"], script[src*="delegation-project"]');
-            existingScripts.forEach(script => script.remove());
+            existingScripts.forEach(script => {
+                script.remove();
+            });
             
+            // Script yuklash
             const script = document.createElement('script');
             script.src = filename;
             script.onload = () => console.log(`\n✅ ${filename} yuklandi!\n`);

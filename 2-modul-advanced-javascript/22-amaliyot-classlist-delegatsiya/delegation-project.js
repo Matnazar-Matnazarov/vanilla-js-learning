@@ -1,6 +1,9 @@
 // Event Delegation Amaliy Loyihasi
 // Bu fayl event delegation prinsiplarini real-world loyihalarda qo'llashni ko'rsatadi
 
+(function() {
+'use strict';
+
 console.log('🔄 Event Delegation Amaliy Loyihasi\n');
 
 const demoContainer = document.getElementById('demo-container');
@@ -262,3 +265,5 @@ console.log('   ✅ Performance optimizatsiyasi');
 console.log('');
 
 console.log('✅ Event Delegation Amaliy Loyihasi tugadi!\n');
+
+})();
