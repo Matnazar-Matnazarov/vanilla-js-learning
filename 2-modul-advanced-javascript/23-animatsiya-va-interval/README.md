@@ -51,10 +51,10 @@ Bu darsda JavaScript da vaqt va animatsiyalar bilan ishlashni o'rganamiz:
 
 ## 📝 Vazifalar
 
-- [ ] setTimeout va setInterval ishlatish
-- [ ] RequestAnimationFrame bilan animatsiya yaratish
-- [ ] Timer management
-- [ ] Smooth animations
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   - [x] setTimeout va setInterval ishlatish                                                                                                                                                                                                                                                                               
+- [x] RequestAnimationFrame bilan animatsiya yaratish
+- [x] Timer management
+- [x] Smooth                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 animations                                                                                                          
 
 ## 🎓 O'rganiladigan tushunchalar
 
