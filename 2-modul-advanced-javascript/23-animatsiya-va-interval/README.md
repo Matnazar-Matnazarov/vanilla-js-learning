@@ -51,10 +51,10 @@ Bu darsda JavaScript da vaqt va animatsiyalar bilan ishlashni o'rganamiz:
 
 ## 📝 Vazifalar
 
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   - [x] setTimeout va setInterval ishlatish                                                                                                                                                                                                                                                                               
+- [x] setTimeout va setInterval ishlatish
 - [x] RequestAnimationFrame bilan animatsiya yaratish
 - [x] Timer management
-- [x] Smooth                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 animations                                                                                                          
+- [x] Smooth animations                                                                                                          
 
 ## 🎓 O'rganiladigan tushunchalar
 
