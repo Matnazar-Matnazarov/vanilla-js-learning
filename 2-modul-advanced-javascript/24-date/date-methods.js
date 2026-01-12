@@ -14,7 +14,7 @@ console.log('getYear():', date.getYear(), '(eski metod, ishlatilmasligi tavsiya 
 console.log('setFullYear(2025):');
 const date1 = new Date(date);
 date1.setFullYear(2025);
-console.log('  Yangi sana:', date1.toString());
+console.log("  Yangi sana:", date1.toString());
 
 // 2. Oy metodlari
 console.log('');
@@ -23,7 +23,7 @@ console.log('getMonth():', date.getMonth(), '(0-11, 0 = Yanvar)');
 console.log('setMonth(5):');
 const date2 = new Date(date);
 date2.setMonth(5);
-console.log('  Yangi sana:', date2.toString());
+console.log("  Yangi sana:", date2.toString());
 
 // 3. Kun metodlari
 console.log('');
@@ -33,7 +33,7 @@ console.log('getDay():', date.getDay(), '(0-6, 0 = Yakshanba)');
 console.log('setDate(25):');
 const date3 = new Date(date);
 date3.setDate(25);
-console.log('  Yangi sana:', date3.toString());
+console.log("  Yangi sana:", date3.toString());
 
 // 4. Soat metodlari
 console.log('');
@@ -45,7 +45,7 @@ console.log('getMilliseconds():', date.getMilliseconds());
 console.log('setHours(18):');
 const date4 = new Date(date);
 date4.setHours(18);
-console.log('  Yangi sana:', date4.toString());
+console.log("  Yangi sana:", date4.toString());
 
 // 5. UTC metodlari
 console.log('');

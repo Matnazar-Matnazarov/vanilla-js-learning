@@ -25,26 +25,26 @@ console.log('Farq (kunlar):', diffDay);
 
 // 2. Vaqt qo'shish va ayirish
 console.log('');
-console.log('2. Vaqt qo'shish va ayirish:');
+console.log("2. Vaqt qo'shish va ayirish:");
 
 // Millisekundlar qo'shish
 const datePlusMs = new Date(date1.getTime() + 1000 * 60 * 30); // 30 daqiqa qo'shish
-console.log('30 daqiqa qo'shish:', datePlusMs.toString());
+console.log("30 daqiqa qo'shish:", datePlusMs.toString());
 
 // Kunlar qo'shish
 const datePlusDays = new Date(date1);
 datePlusDays.setDate(datePlusDays.getDate() + 7); // 7 kun qo'shish
-console.log('7 kun qo'shish:', datePlusDays.toString());
+console.log("7 kun qo'shish:", datePlusDays.toString());
 
 // Oylar qo'shish
 const datePlusMonths = new Date(date1);
 datePlusMonths.setMonth(datePlusMonths.getMonth() + 2); // 2 oy qo'shish
-console.log('2 oy qo'shish:', datePlusMonths.toString());
+console.log("2 oy qo'shish:", datePlusMonths.toString());
 
 // Yillar qo'shish
 const datePlusYears = new Date(date1);
 datePlusYears.setFullYear(datePlusYears.getFullYear() + 1); // 1 yil qo'shish
-console.log('1 yil qo'shish:', datePlusYears.toString());
+console.log("1 yil qo'shish:", datePlusYears.toString());
 
 // Vaqt ayirish
 const dateMinusDays = new Date(date1);
