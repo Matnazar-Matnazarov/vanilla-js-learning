@@ -58,10 +58,10 @@ Bu darsda JavaScript Date obyekti bilan ishlashni o'rganamiz:
 
 ## 📝 Vazifalar
 
-- [ ] Date obyekti yaratish
-- [ ] Date metodlari bilan ishlash
-- [ ] Vaqt formatlash
-- [ ] Vaqt hisoblash
+- [x] Date obyekti yaratish
+- [x] Date metodlari bilan ishlash
+- [x] Vaqt formatlash
+- [x] Vaqt hisoblash
 
 ## 🎓 O'rganiladigan tushunchalar
 
