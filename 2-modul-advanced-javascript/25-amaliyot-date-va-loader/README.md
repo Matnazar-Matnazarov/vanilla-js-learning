@@ -36,10 +36,10 @@
 
 ## 📝 Vazifalar
 
-- [ ] Date bilan loyiha yaratish
-- [ ] Loader komponenti yaratish
-- [ ] Vaqt ko'rsatish loyihalari
-- [ ] Amaliy loyihalar
+- [x] Date bilan loyiha yaratish
+- [x] Loader komponenti yaratish
+- [x] Vaqt ko'rsatish loyihalari
+- [x] Amaliy loyihalar
 
 ## 🎓 O'rganilgan tushunchalar
 
