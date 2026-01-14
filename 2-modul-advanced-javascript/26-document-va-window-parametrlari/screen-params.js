@@ -8,7 +8,7 @@ if (!demoContainer) {
     console.error('Demo container topilmadi!');
 } else {
     // 1. Screen o'lchamlari
-    console.log('1. Screen o'lchamlari:');
+    console.log("1. Screen o'lchamlari:");
     
     const screenSizeDiv = document.createElement('div');
     screenSizeDiv.style.cssText = 'padding: 15px; background: white; border-radius: 8px; margin-bottom: 15px;';
@@ -65,17 +65,17 @@ if (!demoContainer) {
     console.log('  screen.orientation:', screen.orientation);
     
     // 3. Viewport ma'lumotlari
-    console.log('3. Viewport ma'lumotlari:');
+    console.log("3. Viewport ma'lumotlari:");
     
     const viewportDiv = document.createElement('div');
-    viewportDiv.style.cssText = 'padding: 15px; background: white; border-radius: 8px; margin-bottom: 15px;';
+    viewportDiv.style.cssText = "padding: 15px; background: white; border-radius: 8px; margin-bottom: 15px;";
     
     const viewportTitle = document.createElement('h3');
-    viewportTitle.textContent = '👁️ Viewport Ma\'lumotlari';
-    viewportTitle.style.cssText = 'color: #00f2fe; margin-bottom: 15px;';
+    viewportTitle.textContent = "👁️ Viewport Ma'lumotlari";
+    viewportTitle.style.cssText = "color: #00f2fe; margin-bottom: 15px;";
     
     const viewportContent = document.createElement('div');
-    viewportContent.style.cssText = 'font-family: monospace; line-height: 1.8; font-size: 0.9em;';
+    viewportContent.style.cssText = "font-family: monospace; line-height: 1.8; font-size: 0.9em;";
     
     function updateViewport() {
         viewportContent.innerHTML = `
@@ -96,25 +96,25 @@ if (!demoContainer) {
     viewportDiv.appendChild(viewportContent);
     
     // 4. Responsive breakpoints
-    console.log('4. Responsive breakpoints:');
+    console.log("4. Responsive breakpoints:");
     
     const responsiveDiv = document.createElement('div');
-    responsiveDiv.style.cssText = 'padding: 15px; background: white; border-radius: 8px;';
+    responsiveDiv.style.cssText = "padding: 15px; background: white; border-radius: 8px;";
     
     const responsiveTitle = document.createElement('h3');
-    responsiveTitle.textContent = '📱 Responsive Breakpoints';
+    responsiveTitle.textContent = "📱 Responsive Breakpoints";
     responsiveTitle.style.cssText = 'color: #00f2fe; margin-bottom: 15px;';
     
     const responsiveContent = document.createElement('div');
-    responsiveContent.style.cssText = 'font-family: monospace; line-height: 1.8; font-size: 0.9em;';
+    responsiveContent.style.cssText = "font-family: monospace; line-height: 1.8; font-size: 0.9em;";
     
     function getDeviceType() {
         const width = window.innerWidth;
-        if (width < 576) return 'Mobile';
+        if (width < 576) return "Mobile";
         if (width < 768) return 'Tablet (Small)';
-        if (width < 992) return 'Tablet';
-        if (width < 1200) return 'Desktop';
-        return 'Desktop (Large)';
+        if (width < 992) return "Tablet";
+        if (width < 1200) return "Desktop";
+        return "Desktop (Large)";
     }
     
     function updateResponsive() {
