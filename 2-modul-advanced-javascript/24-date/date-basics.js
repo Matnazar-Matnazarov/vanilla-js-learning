@@ -25,7 +25,7 @@ console.log('Parametrlar bilan (2024, 0, 15, 14, 30, 0):', dateFromParams);
 
 // 2. Date.now() - hozirgi vaqt millisekundlarda
 console.log('');
-console.log('2. Date.now():');
+console.log('2. Date.now():');                              
 const timestamp = Date.now();
 console.log('Timestamp (millisekundlar):', timestamp);
 console.log('Date obyektiga aylantirish:', new Date(timestamp));
