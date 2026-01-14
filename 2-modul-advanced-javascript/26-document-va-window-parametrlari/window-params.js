@@ -8,10 +8,10 @@ if (!demoContainer) {
     console.error('Demo container topilmadi!');
 } else {
     // 1. Window o'lchamlari
-    console.log('1. Window o'lchamlari:');
+    console.log("1. Window o'lchamlari:");
     
     const windowSizeDiv = document.createElement('div');
-    windowSizeDiv.style.cssText = 'padding: 15px; background: white; border-radius: 8px; margin-bottom: 15px;';
+    windowSizeDiv.style.cssText = "padding: 15px; background: white; border-radius: 8px; margin-bottom: 15px;";
     
     const windowSizeTitle = document.createElement('h3');
     windowSizeTitle.textContent = '📐 Window O\'lchamlari';
