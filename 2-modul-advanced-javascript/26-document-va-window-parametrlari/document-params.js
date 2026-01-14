@@ -35,17 +35,17 @@ if (!demoContainer) {
     docElementDiv.appendChild(docElementContent);
     
     // 2. Document ma'lumotlari
-    console.log('2. Document ma'lumotlari:');
-    console.log('  document.documentElement:', document.documentElement);
-    console.log('  document.body:', document.body);
-    console.log('  document.head:', document.head);
-    console.log('  document.title:', document.title);
-    console.log('  document.URL:', document.URL);
-    console.log('  document.domain:', document.domain);
-    console.log('  document.readyState:', document.readyState);
+    console.log("2. Document malumotlari:");
+    console.log("  document.documentElement:", document.documentElement);
+    console.log("  document.body:", document.body);
+    console.log("  document.head:", document.head);
+    console.log("  document.title:", document.title);
+    console.log("  document.URL:", document.URL);
+    console.log("  document.domain:", document.domain);
+    console.log("  document.readyState:", document.readyState);
     
     // 3. Document metodlari
-    console.log('3. Document metodlari:');
+    console.log("3. Document metodlari:");
     
     const docMethodsDiv = document.createElement('div');
     docMethodsDiv.style.cssText = 'padding: 15px; background: white; border-radius: 8px; margin-bottom: 15px;';
@@ -76,17 +76,17 @@ if (!demoContainer) {
     docMethodsDiv.appendChild(docMethodsContent);
     
     // 4. Document xususiyatlari
-    console.log('4. Document xususiyatlari:');
+    console.log("4. Document xususiyatlari:");
     
     const docPropsDiv = document.createElement('div');
-    docPropsDiv.style.cssText = 'padding: 15px; background: white; border-radius: 8px;';
+    docPropsDiv.style.cssText = "padding: 15px; background: white; border-radius: 8px;";
     
     const docPropsTitle = document.createElement('h3');
-    docPropsTitle.textContent = '📋 Document Xususiyatlari';
-    docPropsTitle.style.cssText = 'color: #00f2fe; margin-bottom: 15px;';
+    docPropsTitle.textContent = "📋 Document Xususiyatlari";
+        docPropsTitle.style.cssText = "color: #00f2fe; margin-bottom: 15px;";
     
     const docPropsContent = document.createElement('div');
-    docPropsContent.style.cssText = 'font-family: monospace; line-height: 1.8; font-size: 0.9em;';
+    docPropsContent.style.cssText = "font-family: monospace; line-height: 1.8; font-size: 0.9em;";
     
     const docLocation = document.location;
     const docReferrer = document.referrer;
