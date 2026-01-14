@@ -60,10 +60,10 @@ Bu darsda Document va Window obyektlarining parametrlarini o'rganamiz:
 
 ## 📝 Vazifalar
 
-- [ ] Document parametrlarini o'qish
-- [ ] Window parametrlarini o'qish
-- [ ] Screen parametrlarini o'qish
-- [ ] Responsive design bilan ishlash
+- [x] Document parametrlarini o'qish
+- [x] Window parametrlarini o'qish
+- [x] Screen parametrlarini o'qish
+- [x] Responsive design bilan ishlash
 
 ## 🎓 O'rganiladigan tushunchalar
 
