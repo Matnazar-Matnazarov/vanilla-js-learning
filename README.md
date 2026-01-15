@@ -242,4 +242,3 @@ Bu loyiha [LICENSE](LICENSE) faylida ko'rsatilgan litsenziya bo'yicha tarqatilad
 **Muallif:** JavaScript Learning Course  
 **Versiya:** 1.0.0
 
-
